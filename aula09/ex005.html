@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+    <style>
+        body {
+            background-color: #7cf1ed;
+            font: normal 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>primeiros passos no DOM</h1>
+    <p>aq vai o resultado</p>
+    <p>aprendendo sobre o <strong>DOM</strong> em javascript</p>
+
+    <div class="msg">Clique aqui</div>
+    <script>
+        var corpo = window.document.body;
+        var p1 = window.document.getElementsByTagName('p')[1];
+        /*
+        var div = window.document.getElementById('msg');
+        div.style.backgroundColor = 'white';
+        div.innerText = 'no guardo...';
+        */
+         var div = window.document.querySelector('div.msg');
+         div.style.color = 'white';
+    </script>
+</body>
+</html>

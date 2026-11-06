@@ -1,0 +1,73 @@
+body{
+    background-color: #723482;
+    font: normal 20pt arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: #347482;
+    border-radius: 10px;
+    padding: 15px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377);
+    
+    
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+input{
+    display: block;
+}
+#usuario{
+    margin: auto;
+    margin-top: 2px;   
+    width: 500px;
+    height: 30px;
+    border-radius: 9px;
+    background: #82583476;
+    box-shadow: 2px 2px 5px black;
+    font-size: 25px;
+}
+
+#senha{
+    margin: auto;
+    margin-top: 20px;   
+    width: 500px;
+    height: 30px;
+    border-radius: 9px;
+    background: #82583476;
+    box-shadow: 2px 2px 5px black;
+    font-size: 25px;
+}
+
+.btn{
+    background:#C689D6;
+    margin: auto;
+    border-radius: 11px;
+    margin-top: 30px;
+    width: 400px;
+    height: 40px;
+    font: normal 20pt arial;
+    box-shadow: 2px 2px 5px black;
+}
+h2{
+    text-align: center;
+}
+
+#res{
+    margin-top: 18px;
+    text-align: center;
+    font-size: 30px;
+}
+
